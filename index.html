@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Insert title here</title>
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div id="formulario" class="center">
+    <header id="cabecera" class="cabeceraFormulario"> ALTA DE CLIENTES </header>
+    <section id="seccion">
+      <table width="650" height="400" border="0">
+        <tr>
+          <td width="300" align="right">&nbsp;</td>
+          <td width="550" align="center" colspan="3" class="textoObligatorios">Los campos marcados con (*) son
+            obligatorios</td>
+          <td width="150" align="left">&nbsp;</td>
+        </tr>
+        <tr class="lineaBlanca">
+          <td width="300" align="right">&nbsp;</td>
+          <td width="350" align="left">&nbsp;</td>
+          <td width="50" align="center">&nbsp;</td>
+          <td width="150" align="right">&nbsp;</td>
+          <td width="150" align="left">&nbsp;</td>
+        </tr>
+        <tr>
+          <td width="300" align="right" class="etiquetaDeCampo">(*)NIF</td>
+          <td width="350" align="left"><input type="text" id="nif" size="20"></td>
+          <td width="50" align="center">&nbsp;</td>
+        </tr>
+        <tr>
+          <td width="300" align="right" class="etiquetaDeCampo">(*)NOMBRE</td>
+          <td width="350" align="left"><input type="text" id="nombre"></td>
+          <td width="50" align="center">&nbsp;</td>
+        </tr>
+        <tr>
+          <td width="150" align="right" class="etiquetaDeCampo">(*)PROVINCIA</td>
+          <td width="150" align="left">
+            <select id="provincia">
+				<option></option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td width="150" align="right" class="etiquetaDeCampo">(*)LOCALIDAD</td>
+          <td width="150" align="left">
+            <select id="localidad">
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td width="150" align="right"><input class="boton" type="button" id="add" value="ADD"></td>
+          <td width="150" align="right"><input class="boton" type="button" id="reset" value="RESET"></td>
+        </tr>
+      </table>
+
+    </section>
+
+    <footer id="pie" class="pieFormulario">BOOTCAMP CAPGEMINI</footer>
+  </div>
+</body>
+
+</html>
